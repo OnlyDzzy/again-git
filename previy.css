@@ -1,0 +1,60 @@
+body{
+    background-image:  url(37046a3992d2de0df81ae6b1082a6eb8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+    text-shadow: 20px 2px  30px rgba(0, 0, 0, 0.411);
+  }
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+   height: 100vh;
+   color: white ;
+}
+.welcome{
+    height: 100%;
+    position: absolute;
+}
+.flowtext {
+    background: linear-gradient(90deg, #e933ff, #ffb400, #ff3333, #334dff, #e933ff);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textflow 5s linear infinite;
+  }
+  @keyframes textflow {
+    from {background-position: 0% center}         
+    to {background-position: 200% center} /*блок анимации переливающегося текста */
+  }
+  .learn-more{
+    background-color: #6e057c83;
+    border-radius: 10px;
+  }
+  .btn_txt{
+    color: aliceblue;
+    text-align: center;
+    margin: 2px;
+    cursor: pointer;
+    animation: btn_TXT 5s infinite;
+  }
+  
+  .learn-more:hover{
+    transition: 2s;
+    transform: scale(1.2);
+  }
+  @keyframes btn_TXT{
+    0% {transform: scale(0.5); }
+    25% {transform: scale(0.8);}
+    50%{transform: scale(1.0);}
+    75% {transform: scale(0.8);}
+    100%{transform: scale(0.5);}
+  }

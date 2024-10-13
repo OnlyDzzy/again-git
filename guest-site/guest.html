@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style-guest.css" />
+    <script src="JSGuest.js"></script>
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <h1 class="header__hello">Добро пожаловать на мой проект</h1>
+      <p class="header__paragraph">Здесь находится информация обо мне.</p>
+      <p>...</p>
+    </header>
+    <section class="sec">
+      <div class="main">
+        <div>
+          <img
+            class="my_photo"
+            src="img/my-photo.jpg"
+            alt="my-photo"
+            width="300px"
+            height="350px"
+          />
+        </div>
+        <div class="main_content">
+          <div class="text_content">
+            <h2>Даниил</h2>
+            <p>
+              Я изучил разработку веб-приложений и умею работать с HTML
+              разметкой и CSS стилями. Также умею программировать на JS и РHP.
+              Мои проекты построены с применением этих знаний.
+            </p>
+          </div>
+        </div>
+        <div class="first_job">
+          <h2 class="job_txt">Моя певая работа</h2>
+          <img
+            class="work_img"
+            src="img/image.png"
+            alt="first_job"
+            width="600px"
+            height="350px"
+          />
+          <div>
+            <button type="button" id="jobN1">Перейти к проекту</button>
+          </div>
+          <p class="job_txt">
+            Моей первой работой стал простенький сайт где я только знакомился с
+            HTML и CSS. Да выглядит не идеально но это мои первые шаги в мир
+            Веб-разработки.
+          </p>
+        </div>
+        <div class="forma">
+          <section id="IDsection" class="secton">
+            <h2 class="job_txt">Оставьте заявку на сотрудничество</h2>
+            <form action="#">
+              <label for="name">Имя:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="subject">Тема:</label>
+              <input type="text" id="subject" name="subject" required />
+
+              <label for="message">Сообщение:</label>
+              <textarea id="message" name="message" required></textarea>
+
+              <div class="btn"><button type="submit">Отправить</button></div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

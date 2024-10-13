@@ -1,0 +1,115 @@
+
+    /*font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;  */ 
+    /* использованыый стиль */
+   /* стили тела и шапки  */
+body{
+    background-image: url(../img/abstract-triangle-eges-glow-dark.jpg);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    background-image: url(../img/37046a3992d2de0df81ae6b1082a6eb8.jpg);
+    background-position: center;
+    text-align: center;
+    color: azure;
+    padding: 10px 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 0, 0);
+}
+ /* стиль контента */
+.sec{
+    display: flex;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 10px auto;
+}
+.main{
+    padding-top: 10px;
+}
+.main_content{
+    background-color: rgb(163, 163, 163);
+    border-radius: 30px;
+}
+.my_photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20%;
+}
+.text_content{
+    margin: 10px;
+    padding:5px 5px;
+    color: rgb(255, 255, 255);
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 800;
+    font-style: normal; 
+}
+.first_job{
+    padding:5px 5px;
+    background-color: rgb(101, 66, 21);
+    display: block;
+    text-align: center;
+    height: 1200px;
+    
+}
+.job_txt{
+    max-width: 1200px;
+    color: rgb(255, 255, 255);
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 800;
+    font-style: normal; 
+
+}
+.work_img{
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: aqua;
+}
+ /* стиль формы  */
+.forma{
+    display: block;
+    width: 1200px;
+    background-color: black;
+    justify-content: center;
+}
+.secton{display: block;
+    align-items: center;
+    flex-direction: column;
+
+}
+label{
+    padding: 10px;
+    font-size: x-large;
+    justify-content: center;
+    color: aqua;
+}
+input,textarea{
+    display: block;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: blueviolet;
+    width: 200px;
+    height: 50px;
+    color: blue;
+    font-size: x-large;
+}
