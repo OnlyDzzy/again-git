@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/style-guest.css" />
-    <script src="JSGuest.js"></script>
+    <script src="JScode_guest.js" defer></script>
   </head>
 
   <body class="body">
@@ -41,17 +41,39 @@
             </p>
           </div>
         </div>
-        <div class="first_job">
+        <div class="my_job">
           <h2 class="job_txt">Моя певая работа</h2>
-          <img
-            class="work_img"
-            src="img/image.png"
-            alt="first_job"
-            width="600px"
-            height="350px"
-          />
+          <div class="_job_image">
+            <button id="left" class="leftB"></button>
+            <section class="job_image">
+              <img
+                class="work_img"
+                src="img/image.png"
+                alt="first_job"
+                width="600px"
+                height="350px"
+              />
+              <img
+                class="work_img"
+                src="img/code.png"
+                alt="code"
+                width="600px"
+                height="350px"
+              />
+              <img
+                class="work_img"
+                src="img/css.png"
+                alt="css_code"
+                width="600px"
+                height="350px"
+              />
+            </section>
+            <button id="right" class="rightB" type="button"></button>
+          </div>
           <div>
-            <button type="button" id="jobN1">Перейти к проекту</button>
+            <a href="prototip/prototipe.html" class="work1"
+              >Перейти к проекту.</a
+            >
           </div>
           <p class="job_txt">
             Моей первой работой стал простенький сайт где я только знакомился с
@@ -59,10 +81,56 @@
             Веб-разработки.
           </p>
         </div>
+        <section class="my_job">
+          <div class="my_project">
+            <h2 class="job_txt">Мой текущий проект</h2>
+            <div class="_job_image2">
+              <button id="left2" class="leftB"></button>
+              <section class="job_image2">
+                <img
+                id="num2"
+                  class="work_img"
+                  src="img/project2.png"
+                  alt=""
+                  width="600px"
+                  height="350px"
+                />
+                <img
+                id="num2"
+                  class="work_img"
+                  src="img/code2.png"
+                  alt=""
+                  width="600px"
+                  height="350px"
+                />
+                <img
+                id="num2"
+                  class="work_img"
+                  src="img/css2.png"
+                  alt=""
+                  width="600px"
+                  height="350px"
+                />
+              </section>
+              <button id="right2" class="rightB" type="button"></button>
+            </div>
+            <div>
+              <a href="../my-proect/proto.html" class="work1"
+                >Перейти к проекту.</a
+              >
+            </div>
+            <p class="job_txt">
+              Тема моего текущего проекта состоит в том что я создал
+              веб-приложение в котором находятся различные истории, раздел
+              комментариев для оценки историй. Также есть форум(в разработке)где
+              можно будет обсудить истории и предложить свои.
+            </p>
+          </div>
+        </section>
         <div class="forma">
           <section id="IDsection" class="secton">
             <h2 class="job_txt">Оставьте заявку на сотрудничество</h2>
-            <form action="#">
+            <form action="#" class="form">
               <label for="name">Имя:</label>
               <input type="text" id="name" name="name" required />
 

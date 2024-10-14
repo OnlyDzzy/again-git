@@ -4,6 +4,7 @@
     font-style: normal;  */ 
     /* использованыый стиль */
    /* стили тела и шапки  */
+
 body{
     background-image: url(../img/abstract-triangle-eges-glow-dark.jpg);
     background-position: center;
@@ -23,8 +24,10 @@ body{
     border-bottom-style: solid;
     border-bottom-color: rgb(0, 0, 0);
 }
+
  /* стиль контента */
-.sec{
+
+ .sec{
     display: flex;
     max-width: 1200px;
     padding: 20px;
@@ -34,7 +37,7 @@ body{
     padding-top: 10px;
 }
 .main_content{
-    background-color: rgb(163, 163, 163);
+    background-color: rgba(77, 0, 144, 0.479);
     border-radius: 30px;
 }
 .my_photo{
@@ -54,21 +57,49 @@ body{
     font-weight: 800;
     font-style: normal; 
 }
-.first_job{
+.my_job{
     padding:5px 5px;
-    background-color: rgb(101, 66, 21);
-    display: block;
-    text-align: center;
-    height: 1200px;
     
+    display: block;
+    text-align: center;  
 }
+
+/*стиль кнопок */
+
+.leftB{
+    background-image:url(../img/left.svg) ;
+    background-color: rgba(6, 128, 108, 0.636);
+    width: 70px;
+    height: 70px;
+}
+.rightB{
+    background-image:url(../img/right.svg) ;
+    background-color: rgba(6, 128, 108, 0.636);
+    width: 70px;
+    height: 70px;
+}
+
+
 .job_txt{
-    max-width: 1200px;
+    max-width: 1190px;
     color: rgb(255, 255, 255);
     font-family: "Hachi Maru Pop", cursive;
     font-weight: 800;
     font-style: normal; 
 
+}
+._job_image{
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.job_image{
+    width: 610px;
+    display: flex;
+    overflow: hidden;
 }
 .work_img{
     border-style: outset;
@@ -76,23 +107,43 @@ body{
     border-radius: 20px;
     border-color: aqua;
 }
+/*стиль второго проекта*/
+._job_image2{
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.job_image2{
+    width: 610px;
+     display: flex;
+    overflow: hidden;
+}
+
  /* стиль формы  */
+
 .forma{
     display: block;
     width: 1200px;
-    background-color: black;
     justify-content: center;
 }
-.secton{display: block;
+.secton{
+    display: flex;
     align-items: center;
     flex-direction: column;
 
+}
+.form{
+    background-color: rgba(110, 110, 110, 0.199);
+    border-radius: 10px;
 }
 label{
     padding: 10px;
     font-size: x-large;
     justify-content: center;
-    color: aqua;
+    color: rgb(186, 225, 181);
 }
 input,textarea{
     display: block;
@@ -102,12 +153,23 @@ input,textarea{
     width: 650px;
     
 }
+textarea{
+    display: block;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 100px;
+
+}
 .btn{
     display: flex;
     justify-content: center;
 }
 button{
-    background-color: blueviolet;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: rgba(101, 42, 155, 0.708);
     width: 200px;
     height: 50px;
     color: blue;
