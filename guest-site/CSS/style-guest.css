@@ -107,6 +107,29 @@ body{
     border-radius: 20px;
     border-color: aqua;
 }
+.hreff{
+    display: flex;
+    justify-content: center;
+}
+a{
+    
+    width: 350px;
+    text-decoration: none;
+    font-size: xx-large;
+    border-radius: 10px;
+    background-image: linear-gradient(#FE5568 50%, #FE5568 50%), linear-gradient(silver 50%, silver 50%);
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-size: 0 5px, 100% 5px;
+   color: #ffffff;
+   padding-bottom: 3px;
+   transition: .5s ease-in-out;
+    
+}
+a:hover{
+    background-size: 100% 10px, 100% 10px;
+    color: #FE5568;
+}
 /*стиль второго проекта*/
 ._job_image2{
     display: flex;
