@@ -49,3 +49,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Закрытие подключения к базе данных
 $conn->close();
 ?>
+//
