@@ -7,25 +7,25 @@
     <title>Adaptive Website</title>
     <link rel="stylesheet" href="sas/test.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="css/faviconImage/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="css/faviconImage/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="css/faviconImage/favicon-16x16.png">
-    <link rel="manifest" href="css/faviconImage/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="sas/faviconImage/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="sas/faviconImage/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="sas/faviconImage/favicon-16x16.png">
+    <link rel="manifest" href="sas/faviconImage/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
 
 <header class="header">
     <div class="header__border"></div>
-    <div class="header__logo"><img class="logoimg" src="css/images/my-logo.jpg" alt="headerlogo"></div>
+    <div class="header__logo"><img class="logoimg" src="sas/images/my-logo.jpg" alt="headerlogo"></div>
     <nav class="header__nav">
         <ul class="header__list">
             <li class="header__item"><a class="header__link"
-                    href="#">Главная</a></li>
+                    href="test.php">Главная</a></li>
             <li class="header__item"><a class="header__link"
-                    href="#">обо мне </a></li>
+                    href="../guest-site/guest.html">обо мне </a></li>
             <li class="header__item"><a class="header__link"
-                    href="#">Контанкты</a></li>
+                    href="../guest-site/guest.html">Контанкты</a></li>
         </ul>
     </nav>
 </header>
@@ -64,17 +64,19 @@
 
         </div>
     </section>
-    <div class="nextContent"><img class="image" src="css/images/KIbergirl.gif" alt="Responsive Image"></div>
+    <div class="nextContent"><img class="image" src="sas/images/KIbergirl.gif" alt="Responsive Image"></div>
     <div class="set_commit">
         <section class="commits">
-        <form action="form.commits.php" class="FORM" method="post">
-            <label for="name">Ваше имя:</label>
-            <input type="text" name="name" id="name" required>
-            <label for="message">Комментарий</label>
-            <textarea name="message" id="message"></textarea>
-            <button type="submit">Отправить</button>
-        </form>
-    </section></div>
+            <form action="form.commits.php" class="FORM" method="post">
+                <label for="name">Ваше имя:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="message">Комментарий</label>
+                <textarea name="message" id="message"></textarea>
+                <button type="submit">О т п р а в и т ь</button>
+            </form>
+        </section>
+    </div>
+    <div class="comments"><?php include "commits.php"; ?></div>
 </main>
 <footer class="footer">
     <p>© 2024 Adaptive Website</p>

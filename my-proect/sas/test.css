@@ -135,6 +135,10 @@ body {
   align-items: center;
 }
 
+.content__page__nav {
+  font-size: larger;
+}
+
 .nextContent {
   display: flex;
   justify-content: center;
@@ -147,10 +151,58 @@ body {
 }
 
 .set_commit {
+  border-radius: 10px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  background-color: rgba(255, 0, 111, 0.684);
+}
+
+.FORM {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+label, input, textarea {
+  padding: 10px;
+}
+
+button {
+  font-family: fantasy;
+  font-size: x-large;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgba(3, 3, 3, 0.5607843137);
+}
+
+.comments {
+  border-radius: 10px;
   display: flex;
   justify-content: center;
-  width: 800px;
-  background-color: #006177;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.commits {
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 900px;
+  background-color: rgba(21, 1, 61, 0.8823529412);
+  justify-content: center;
+}
+
+.com {
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  background-color: rgba(0, 0, 0, 0.678);
+  margin: 10px;
 }
 
 .footer {
@@ -180,4 +232,4 @@ body {
     padding: 0;
     min-width: 90%;
   }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=test.css.map */
