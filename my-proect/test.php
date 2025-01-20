@@ -32,9 +32,8 @@
 <main class="content">
 
     <section class="content__intro">
-        <h1 class="smak">Добро пожаловать на адаптивный веб-сайт</h1>
-        <p>Это адаптивная страница с адаптивными изображениями, пользовательскими шрифтами
-            и значком favicon.</p>
+        <h1 class="smak">Добро пожаловать на сайт Dizzy</h1>
+        <p>Это сайт с различными Историями</p>
     </section>
     <section class="content__page">
 
