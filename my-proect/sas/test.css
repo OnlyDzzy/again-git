@@ -113,6 +113,7 @@ body {
   border-color: #030303;
   margin-top: 20px;
   flex: 1 1 30%;
+  max-width: 20%;
   text-align: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.6666666667);
@@ -120,6 +121,9 @@ body {
 }
 
 .main__content {
+  font-size: large;
+  line-height: 50px;
+  letter-spacing: 6px;
   border-style: inset;
   border-top-width: 10px;
   border-left-width: 5px;
@@ -127,7 +131,7 @@ body {
   border-color: #030303;
   margin: 20px;
   padding-left: 10px;
-  background-color: rgba(2, 72, 109, 0.6666666667);
+  background-color: rgba(0, 0, 0, 0.8509803922);
   border-radius: 30px;
   overflow: hidden;
 }
@@ -147,8 +151,8 @@ body {
 
 .image {
   border-radius: 30px;
-  max-width: 40%;
-  min-width: 35%;
+  max-width: 25%;
+  min-width: 20%;
 }
 
 .set_commit {
@@ -157,7 +161,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
-  background-color: rgba(255, 0, 111, 0.682);
+  background-color: rgba(30, 0, 29, 0.682);
 }
 
 .FORM {
